@@ -1,6 +1,6 @@
 {
-    "name": "weweb-server",
-    "version": "1.1.11",
+    "name": "weweb-preview",
+    "version": "1.2.0",
     "description": "Description",
     "main": "./dist/index.js",
     "scripts": {
@@ -48,5 +48,16 @@
         "nodemon": "^2.0.9",
         "ts-node": "^10.8.0",
         "typescript": "^4.7.2"
-    }
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/weweb-team/weweb-preview.git"
+    },
+    "bugs": {
+        "url": "https://github.com/weweb-team/weweb-preview/issues",
+        "email": "contact@weweb.io"
+    },
+    "homepage": "https://github.com/weweb-team/weweb-preview",
+    "author": "WeWeb Team",
+    "license": "ISC"
 }

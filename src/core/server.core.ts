@@ -34,6 +34,7 @@ export default class Server {
         websiteCore.testFiles()
 
         this.server.listen(this.app.get('port'), () => {
+            log.printWeweb()
             log.printServerInfo()
         })
     }
